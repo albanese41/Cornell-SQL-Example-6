@@ -1,6 +1,6 @@
 SELECT O.first_name, O.last_name,
 
-TIMESTAMPDIFF (YEAR, O.birthdate, CURDATE()) AS Age,
+TIMESTAMPDIFF (YEAR, O.birthdate, CURDATE()) AS age,
 
 M.model_name
 
